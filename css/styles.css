@@ -6,8 +6,10 @@ body {
 hr {
     border-style: dotted none none;
     border-width: 10px;
-    color: white;
-    width: 10%;
+    color: grey;
+    width: 6%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 h1 {
@@ -19,6 +21,12 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
 }
 /*class selectors*/
+.greeting {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #005086;
+    text-align: center;
+}
+
 .info-text {
     font-family: "Comic Sans MS", cursive, sans-serif;
     text-align: center;
@@ -26,20 +34,20 @@ h3 {
 
 .navi {
     font-family: "Comic Sans MS", cursive, sans-serif;
-    position: relative;
-    left: 70%;
-    font-size: x-large;
+    font-size: large;
     text-decoration: none;
-    padding-left: 2%;
+    padding-left: 15px;
 }
 /*ID selectors*/
-#head-table {
-    background-color: rgb(190, 229, 226); /*cedebd*/
-    padding-top: 10%;
+#about {
+    margin-top: 50px;
 }
 
-#head-h1 {
-    margin-top: 0;
+#about-text {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: larger;
+    color: #4b5d67;
 }
 
 #developer {
@@ -49,7 +57,55 @@ h3 {
     margin-right: auto;
 }
 
+#head-table {
+    background-color: rgb(190, 229, 226); /*cedebd*/
+    padding-top: 50px;
+    width: auto;
+    height: 700px;
+}
+
+#head-h1 {
+    margin-top: 0;
+}
+
+#intro {
+    margin-top: 100px;
+}
+
 #im-joe {
     font-family: "Comic Sans MS", cursive, sans-serif;
     text-align: center;
+}
+
+#keyboard-img {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navi-pro {
+    position: absolute;
+    right: 10px;
+}
+
+#navi-edu {
+    position: absolute;
+    right: 98px;
+}
+
+#navi-ski {
+    position: absolute;
+    right: 200px;
+}
+
+#navi-wo {
+    position: absolute;
+    right: 265px;
+}
+
+#navi-abo {
+    position: absolute;
+    right: 340px;
 }
