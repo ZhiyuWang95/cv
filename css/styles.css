@@ -22,13 +22,13 @@ h3 {
 }
 /*class selectors*/
 .greeting {
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Calibri";
     color: #005086;
     text-align: center;
 }
 
 .info-text {
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Calibri";
     text-align: center;
 }
 
@@ -51,10 +51,20 @@ h3 {
 }
 
 #developer {
+    width: 20%;
+    height: auto;
     display: block;
-    width: 60%;
     margin-left: auto;
     margin-right: auto;
+}
+
+#display-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#first-disp {
+    background-color: #b2ebf2;
 }
 
 #head-table {
@@ -73,7 +83,7 @@ h3 {
 }
 
 #im-joe {
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Calibri";
     text-align: center;
 }
 
@@ -83,6 +93,11 @@ h3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#me {
+    width: 100px;
+    height: 100px;
 }
 
 #navi-pro {
