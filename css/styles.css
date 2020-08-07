@@ -1,6 +1,16 @@
+a:link{
+    color:#005086;
+}
+a:visited{
+    color:#005086;
+}
+a:hover{
+    color: orange;
+}
 
 body {
     margin: 0;
+    background-color: #b2ebf2;
 }
 
 hr {
@@ -33,10 +43,18 @@ h3 {
 }
 
 .navi {
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Calibri";
     font-size: large;
     text-decoration: none;
     padding-left: 15px;
+}
+
+.icon-img {
+    width: 10%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*ID selectors*/
 #about {
@@ -61,17 +79,14 @@ h3 {
 #display-table {
     margin-left: auto;
     margin-right: auto;
+    z-index: -1
 }
 
-#first-disp {
-    background-color: #b2ebf2;
-}
-
-#head-table {
-    background-color: rgb(190, 229, 226); /*cedebd*/
-    padding-top: 50px;
-    width: auto;
-    height: 700px;
+#first-div {
+    position: relative;
+    top: 50px;
+    background-color: white;/*;*/
+    height: auto;
 }
 
 #head-h1 {
@@ -100,27 +115,60 @@ h3 {
     height: 100px;
 }
 
+#my-logo {
+    display: inline;
+    position: absolute;
+    right: 1px;
+    bottom: -13px;
+    width: 80px;
+    height: 80px;
+}
+
+#navi-bar {
+    background-color: aliceblue;
+    display: block;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    z-index: 100
+}
+
 #navi-pro {
     position: absolute;
-    right: 10px;
+    left: 290px;
+    top: 10px;
 }
 
 #navi-edu {
     position: absolute;
-    right: 98px;
+    left: 200px;
+    top: 10px;
 }
 
 #navi-ski {
     position: absolute;
-    right: 200px;
+    left: 140px;
+    top: 10px;
 }
 
 #navi-wo {
     position: absolute;
-    right: 265px;
+    left: 80px;
+    top: 10px;
 }
 
 #navi-abo {
     position: absolute;
-    right: 340px;
+    left: 20px;
+    top: 10px;
+}
+
+#skills {
+    position: relative;
+    top: 50px;
+}
+
+
+#work {
+    margin-top: 100px;
 }
