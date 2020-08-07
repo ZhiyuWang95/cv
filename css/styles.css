@@ -62,7 +62,9 @@ h3 {
 }
 
 #about-text {
+    width: 30%;
     font-family: "Times New Roman", Times, serif;
+    margin: 0 auto;
     text-align: center;
     font-size: larger;
     color: #4b5d67;
