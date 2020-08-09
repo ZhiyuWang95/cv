@@ -1,8 +1,8 @@
 a:link{
-    color:#005086;
+    color:#11999E;
 }
 a:visited{
-    color:#005086;
+    color:#11999E;
 }
 a:hover{
     color: orange;
@@ -11,6 +11,7 @@ a:hover{
 body {
     margin: 0;
     background-color: #b2ebf2;
+    line-height: 1.5;
 }
 
 hr {
@@ -23,7 +24,9 @@ hr {
 }
 
 h1 {
-    color: #1b1c25;
+    font-size: 562.5%;
+    color: #66BFBF;
+    margin-bottom: 0 auto 0 auto;
 }
 
 h3 {
@@ -39,7 +42,10 @@ h3 {
 
 .info-text {
     font-family: 'Antic Slab', serif;
+    font-weight: normal;
     text-align: center;
+    color: #66BFBF;
+    font-size: 2.5 rem;
 }
 
 .navi {
@@ -56,6 +62,12 @@ h3 {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+.link-img {
+    width: 50px;
+    height: auto;
+}
 /*ID selectors*/
 #about {
     margin-top: 50px;
@@ -64,18 +76,24 @@ h3 {
 #about-text {
     width: 30%;
     font-family: "Times New Roman", Times, serif;
-    margin: 0 auto;
-    text-align: center;
+    margin: 0 auto 0 auto;
     font-size: larger;
+    color: #4b5d67;
+}
+
+#quate-auther {
+    font-family: "Times New Roman", Times, serif;
+    text-align: right;
     color: #4b5d67;
 }
 
 #developer {
     width: 20%;
     height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: inline;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
 }
 
 #display-table {
@@ -86,9 +104,10 @@ h3 {
 
 #first-div {
     position: relative;
-    top: 50px;
+    top: 20px;
     background-color: white;/*;*/
     height: auto;
+    padding-bottom: 100px;
 }
 
 #head-h1 {
@@ -102,6 +121,7 @@ h3 {
 #im-joe {
     font-family: 'Caveat', cursive;
     text-align: center;
+    margin: 0 auto 0 auto;
 }
 
 #keyboard-img {
@@ -116,11 +136,10 @@ h3 {
     width: 100px;
     height: 100px;
 }
-
 #my-logo {
     display: inline;
     position: absolute;
-    right: 1px;
+    left: 1px;
     bottom: -13px;
     width: 80px;
     height: 80px;
@@ -137,31 +156,31 @@ h3 {
 
 #navi-pro {
     position: absolute;
-    left: 290px;
+    left: 340px;
     top: 10px;
 }
 
 #navi-edu {
     position: absolute;
-    left: 200px;
+    left: 240px;
     top: 10px;
 }
 
 #navi-ski {
     position: absolute;
-    left: 140px;
+    left: 190px;
     top: 10px;
 }
 
 #navi-wo {
     position: absolute;
-    left: 80px;
+    left: 130px;
     top: 10px;
 }
 
 #navi-abo {
     position: absolute;
-    left: 20px;
+    left: 70px;
     top: 10px;
 }
 
