@@ -34,6 +34,10 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
 }
 /*class selectors*/
+.btn {
+    margin: auto;
+}
+
 .greeting {
     font-family: "Calibri";
     color: #005086;
@@ -69,9 +73,6 @@ h3 {
     height: auto;
 }
 
-.contact-btn {
-    margin: 0 auto;
-}
 /*ID selectors*/
 #about {
     margin-top: 50px;
@@ -85,6 +86,9 @@ h3 {
     color: #4b5d67;
 }
 
+#contact {
+    text-align: center;
+}
 #quate-auther {
     font-family: "Times New Roman", Times, serif;
     text-align: right;
@@ -158,9 +162,15 @@ h3 {
     z-index: 100
 }
 
+#navi-cont {
+    position: absolute;
+    left: 400px;
+    top: 10px;
+}
+
 #navi-pro {
     position: absolute;
-    left: 340px;
+    left: 330px;
     top: 10px;
 }
 
@@ -223,8 +233,6 @@ h3 {
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
-    text-align: center;
-    margin: 0 auto 0 auto;
 }
     
 .BUTTON_ZVN:hover {
@@ -239,4 +247,5 @@ h3 {
     -moz-border-radius: 20px;
     border-radius: 20px;
     text-decoration: none;
+    margin: auto;
 }
