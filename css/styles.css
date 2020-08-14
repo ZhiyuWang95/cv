@@ -70,6 +70,7 @@ h3 {
 }
 
 .greeting {
+    font-size: 2rem;
     font-family: "Calibri";
     color: #005086;
     text-align: center;
